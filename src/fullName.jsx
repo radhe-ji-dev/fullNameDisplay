@@ -1,7 +1,8 @@
 // App.jsx
 import React, { useState } from "react";
 
-function fullName() {
+function FullName() {
+  // <-- Must start with uppercase
   const [firstName, setFirstName] = useState("");
   const [lastName, setLastName] = useState("");
   const [fullName, setFullName] = useState("");
@@ -42,4 +43,4 @@ function fullName() {
   );
 }
 
-export default fullName;
+export default FullName;

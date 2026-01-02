@@ -1,10 +1,9 @@
 import "./styles.css";
-import fullName from "./fullName";
-
+import FullName from "./fullName";
 export default function App() {
   return (
     <div className="App">
-      <fullName />
+      <FullName />
     </div>
   );
 }
